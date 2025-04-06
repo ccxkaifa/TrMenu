@@ -1,9 +1,7 @@
 name: TrMenu Dev
 
 on:
-  push:
-  pull_request:
-
+  workflow_dispatch:  # 允许在 GitHub 页面上手动触发
 jobs:
   releaseJar:
     runs-on: ubuntu-latest
